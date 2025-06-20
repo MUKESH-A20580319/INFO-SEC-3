@@ -1,3 +1,6 @@
+#pip install pycryptodome
+# remove the comment '#' above if running in colab or any interactive tool
+# use pip install pycryptodome in the command line, not the python interpreter not on the py shell
 import random
 from base64 import b64encode, b64decode
 from Crypto.Cipher import AES, DES, DES3
